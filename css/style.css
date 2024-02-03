@@ -5,6 +5,7 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 0;
 }
 
 h1{
@@ -23,19 +24,15 @@ p{
 }
 img{
     width: 250px;
-    justify-content: center;
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: #ffffff 10px dashed;
-    margin: auto;
 }
 div{
     min-height: 125px;
     padding: 20px 20px 20px 20px;
-    border: 3px solid white; 
-    border-bottom: 3px solid #ffffff;
-    border-top: 3px solid #ffffff;
-    border-right: 3px solid #ffffff;
-    border-bottom: 3px solid #ffffff;
+    border: 3px solid #ffffff; 
 }
 .introduction{
     margin-top: 15px;
@@ -48,16 +45,20 @@ div{
     margin-left: 50px;
     border-left: 5px solid;
     border-bottom: 2px solid;
+    border-right: 0px solid;
+    border-top: 0px solid;
 }
 .blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid;
+    border-left: 0px solid;
     border-top: 2px solid;
+    border-bottom: 0px solid;
 }
 .blue p, .blue h2{
-    color: #707070;
+    color: #C4C4C4;
 }
 
 .yellow{
@@ -66,6 +67,8 @@ div{
     margin-left: 50px;
     border-bottom: 2px solid;
     border-left: 5px solid;
+    border-right: 0px solid;
+    border-top: 0px solid;
 }
 .yellow p{
     color: #707070;
@@ -76,6 +79,8 @@ div{
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+    border-left: 0px solid;
+    border-bottom: 0px solid;
 }
 footer{
     background: rgb(0,0,0);
@@ -88,4 +93,5 @@ footer p{
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    padding-left: 0px;
 }
